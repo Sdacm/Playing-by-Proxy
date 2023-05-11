@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='utf-8'>
+	<title>Parsec Web SDK Example</title>
+	<link rel='stylesheet' href='style.css'>
+
+	<!-- Parsec Web SDK -->
+	<!-- The development server will redirect this to /sdk/web of the git repo -->
+	<script type='text/javascript' src='/sdk/parsec.js'></script>
+</head>
+
+<body>
+	<audio></audio>
+	<div class='video-container'>
+		<video></video>
+	</div>
+
+	<table id='server-list'>
+	</table>
+
+	<table id='auth'>
+		<tr><td>Email</td>    <td><input id='email'    type='email' autofocus /></td></tr>
+		<tr><td>Password</td> <td><input id='password' type='password' /></td></tr>
+		<tr><td>TFA</td>      <td><input id='tfa'      type='text' /></td></tr>
+	</table>
+
+	<script type='text/javascript' src='/main.js'></script>
+	<script>UI();</script>
+</body>
+
+</html>

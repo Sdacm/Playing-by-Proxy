@@ -1,0 +1,3 @@
+C:/Users/salva/Documents/MEGA/Dissertação/Parsec SDK/parsec-sdk-master/examples/android/app/out/build/x64-Debug/CMakeFiles/parsec-bindings.dir
+C:/Users/salva/Documents/MEGA/Dissertação/Parsec SDK/parsec-sdk-master/examples/android/app/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/salva/Documents/MEGA/Dissertação/Parsec SDK/parsec-sdk-master/examples/android/app/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

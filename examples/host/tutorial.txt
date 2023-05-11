@@ -1,0 +1,15 @@
+0. Para ligar o Aid Mode, o Client deve carregar no [F12].
+Após ligar, deve soar um som que confirma a ligação.
+
+1. Experimentem agora usar um Ping Point. O Client deve carregar [F1] e clicar numa posição no ecrã.
+O Host deve tentar encontrar com o seu cursor a posição escolhida pelo Client. Se o Host quiser parar os "pings", pode carregar [ESCAPE].
+Se o Host quiser ir automaticamente para a posição escolhida, pode carregar [ENTER]. No final, desliga o modo de Ping Point, carregando outra vez no [F1].
+
+2. Escolhe um elemento da imagem. Usa os Vocal Sounds disponíveis para fazer o Host adivinhar qual é o elemento escolhido. A lista de vocal sounds disponíveis é:
+[Y]: Yes, [N]: No, [J]: Jazzy, [C]: Correct, [W]: Wrong, [S]: Shoot, [R]: Run, [Arrows]: Arrow direction.
+
+3. Usa o modo Control Sharing -> Mouse Control ([F5] -> [M]) para controlar o rato do Host. Usando o rato do host,
+usa a ferramenta "Fill" para pintar o sol de branco, o céu de azul escuro e as janelas de amarelo. No final, desactiva o controle do rato carregando outra vez [F5], seguido de [M]
+
+4. O modo Snap Mouse ([F2]) serve para mudares o rato do Host para a posição escolhida. O modo Press Key ([F6]) serve para indicares ao Host em que tecla carregar.
+Utiliza estes dois modos para desenhar pontos brancos no céu.
