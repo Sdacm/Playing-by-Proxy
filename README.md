@@ -1,3 +1,11 @@
+## Playing by Proxy
+
+Playing by Proxy is a desktop streaming application made using Parsec SDK (https://parsec.app/docs/sdk).
+
+We introduced Playing by Proxy, a platform that allows Proxy Players to provide on-demand assistance to Blind Players, as a means to make some gaming visual challenges accessible. Using the Parsec SDK, we developed a stream-like application that allows a sighted person to see the gaming screen of a blind gamer on real time. This application adds an overlapped menu to the screen that grants access to the features of the application. These eight features aim to address different gaming challenges and obstacles and can be divided into three categories: Mouse Assistance, Voice Assistance, and Control Sharing. 
+
+
+### Original README file by Parsec SDK team:
 ## Overview
 
 The Parsec SDK allows your application to make interactive, low-latency peer-to-peer connections for the purpose of game streaming. The SDK handles the low level internals of peer-to-peer connectivity, networking, and hardware accelerated video/audio processing. It is lightweight, consisting of a [single header file](/sdk/parsec.h) and a shared object < 5MB.
