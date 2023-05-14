@@ -2,8 +2,32 @@
 
 Playing by Proxy is a desktop streaming application made using Parsec SDK (https://parsec.app/docs/sdk).
 
-We introduced Playing by Proxy, a platform that allows Proxy Players to provide on-demand assistance to Blind Players, as a means to make some gaming visual challenges accessible. Using the Parsec SDK, we developed a stream-like application that allows a sighted person to see the gaming screen of a blind gamer on real time. This application adds an overlapped menu to the screen that grants access to the features of the application. These eight features aim to address different gaming challenges and obstacles and can be divided into three categories: Mouse Assistance, Voice Assistance, and Control Sharing. 
+We introduced Playing by Proxy, a platform that allows Proxy Players to provide on-demand assistance to Blind Players, as a means to make some gaming visual challenges accessible. Using the Parsec SDK, we developed a stream-like application that allows a sighted person to see the gaming screen of a blind gamer on real time. This application adds an overlapped menu to the screen that grants access to the features of the application. These eight features aim to address different gaming challenges and obstacles and can be divided into three categories: Mouse Assistance, Voice Assistance, and Control Sharing.
 
+To achieve this, we edited and implemented all in the Client and Host example folders and files (/examples/host/ and /examples/client/). We also tweaked the /api/personal/ login python files to facilitate the login and connecting of the players.
+
+All about the Playing by Proxy implementation can be seen at the "Playinb_by_Proxy - Implementation.pdf" file.
+The features description can be checked at "Guião de Features.pdf"file (portuguese only).
+
+Instructions for use:
+  - Both users need to have Parsec instaled (https://parsec.app) and be friends inside the application
+  - Host user needs to check the option “Can connect without approval (careful!)” relating to the other user (this can/should be removed after the experiment)
+  - Download all the folders of this repository
+
+HOST (Blind Player):
+  - Go to /examples/host/
+  - Run "setup_espeak-1.48.04.exe"
+  - Run "starter.bat" (or launcher.bat, in case you've already done the starter.bat before)
+
+CLIENT (Proxy Player):
+  - Go to /examples/client/
+  - Run "setup_espeak-1.48.04.exe"
+  - Wait for the Host to run the application on their side
+  - After the Host runs the application, run the "starter.bat" (or launcher.bat, in case you've already done the starter.bat before)
+  - Choose to which Host you want to connect (to avoid confusion of multiple host machines, the host may close the parsec application (not the host running example), so they only have one peerID)
+
+For any doubts or questions, feel free to contact:
+Salvador Meira: salvador-3255@hotmail.com
 
 ### Original README file by Parsec SDK team:
 ## Overview
